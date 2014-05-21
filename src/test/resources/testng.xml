@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="unit-test-suite">
+  <test name="positive-test-cases">
+    <classes>
+      <class name="org.blisted.util.concurrent.AtomicInitializerTest"/>
+      <class name="org.blisted.util.concurrent.ConcurrentCircularBufferTest"/>
+      <class name="org.blisted.util.concurrent.PersistentQueueTest"/>
+      <class name="org.blisted.util.concurrent.RunnableSuspenderTest"/>
+      <class name="org.blisted.util.AbstractFactoryFinderTest"/>
+      <class name="org.blisted.util.monitoring.ThroughputMonitorTest"/>
+      <class name="org.blisted.util.monitoring.LatencyMonitorProxyFactoryTest"/>
+      <class name="org.blisted.util.EventBrokerTest"/>
+      <class name="org.blisted.util.MonetaryValueTest"/>
+      <class name="org.blisted.util.StreamsTest"/>
+      <class name="org.blisted.util.StringsTest"/>
+      <class name="org.blisted.util.FilesTest"/>
+      <class name="org.blisted.util.ByteBufferInputStreamTest"/>
+    </classes>
+  </test>
+</suite>

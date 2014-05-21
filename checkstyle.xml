@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<module name="Checker">
+  <property name="severity" value="error"/>
+
+  <module name="TreeWalker">
+    <property name="tabWidth" value="4"/>
+
+    <module name="JavadocMethod"/>
+
+    <module name="JavadocType">
+      <property name="allowMissingParamTags" value="true"/>
+    </module>
+
+    <module name="JavadocVariable">
+      <property name="scope" value="package"/>
+    </module>
+
+    <module name="JavadocStyle"/>
+    <module name="ConstantName"/>
+    <module name="LocalFinalVariableName"/>
+    <module name="MemberName"/>
+    <module name="PackageName"/>
+
+    <module name="MethodLength">
+      <property name="max" value="110"/>
+    </module>
+
+    <module name="LineLength">
+      <property name="max" value="80"/>
+    </module>
+
+    <module name="NoWhitespaceAfter">
+      <property name="tokens" 
+               value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS"/>
+    </module>
+
+    <module name="TabCharacter"/>
+
+    <module name="EmptyStatement"/>
+  </module>
+</module>

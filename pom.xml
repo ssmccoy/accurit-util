@@ -4,25 +4,13 @@
   <groupId>it.accur</groupId>
   <artifactId>accurit-util</artifactId>
   <packaging>jar</packaging>
-  <version>TRUNK-SNAPSHOT</version>
+  <version>MASTER-SNAPSHOT</version>
   <name>Accur.it General Utility Classes</name>
   <url>https://mvn.accur.it/sites/it.accur/accurit-util/</url>
 
   <scm>
-    <connection>scm:svn:http://svn.accur.it/accurit-util/trunk</connection>
-    <developerConnection>scm:svn:http://svn.accur.it/accurit-util/trunk</developerConnection>
-    <url>http://svn.accur.it/accurit-util/trunk</url>
+    <url>https://github.com/ssmccoy/accurit-util</url>
   </scm>
-
-  <!--
-  <repositories>
-    <repository>
-      <id>accur.it</id>
-      <name>Accur.it Artifact Repository</name>
-      <url>http://mvn.accur.it/repository</url>
-    </repository>
-  </repositories>
-  -->
 
   <dependencies>
     <dependency>
